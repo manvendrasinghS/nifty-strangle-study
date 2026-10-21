@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Raw NSE archives: 350+ MB of cache, and not ours to redistribute.
+# The built trade table and figures are committed so the results can be read
+# without re-downloading anything.
+data/raw/
+
+# Local notes and drafts
+questions.md
+notes.md
+
+# Secrets and local config
+.env
+.env.*
+*.pem
+*.key
+secrets.*
+.claude/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
