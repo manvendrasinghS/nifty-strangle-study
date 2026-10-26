@@ -183,11 +183,3 @@ tests/              22 tests on synthetic data
   slightly, not the settlement-based P&L.
 - **Eight years, one crash.** The tail estimate rests largely on March 2020.
   Skew of −2.92 is a measurement of this sample, not a stable constant.
-
-## Credit
-
-The question came from [Sankarshan03/Strandle_BankNifty](https://github.com/Sankarshan03/Strandle_BankNifty),
-an intraday BankNifty short-strangle backtest on 1-minute data. This study
-takes a different route — daily data, held to expiry, Nifty weeklies, with
-costs and the tail as the subject rather than a footnote. No data from that
-repository is used or redistributed here.
